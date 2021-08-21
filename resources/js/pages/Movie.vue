@@ -111,7 +111,7 @@
                 duration-300
               "
             >
-              {{ cast.name }}{{ castsRes?.data?.cast.length !== i ? ", " : "" }}
+              {{ cast.name }}{{ castsRes?.data?.cast.length - 1 !== i ? ", " : "" }}
             </router-link>
           </div>
         </div>

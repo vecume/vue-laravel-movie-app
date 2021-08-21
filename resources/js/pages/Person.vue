@@ -61,7 +61,7 @@
 
     <spinner v-if="cLoading" />
     <div v-else>
-      <h2 class="text-3xl font-semibold mb-5 uppercase">Similar Movies</h2>
+      <h2 class="text-3xl font-semibold mb-5 uppercase">The Cast</h2>
       <div class="flex justify-evenly flex-wrap">
         <movie-item
           v-for="movie in creditsRes?.data?.cast"

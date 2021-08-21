@@ -30,7 +30,7 @@
             >IMDB</a
           >
           <a
-            v-if="!vLoading && videoRes?.data?.results[0].site === 'YouTube'"
+            v-if="!vLoading && videoRes?.data?.results[0]?.site === 'YouTube'"
             :href="`https://www.youtube.com/watch?v=${videoRes?.data?.results[0].key}`"
             target="_blank"
             class="
